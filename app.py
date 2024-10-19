@@ -50,5 +50,5 @@ for feature, description in features:
     st.markdown(f'<p class="feature-header">{feature}</p>', unsafe_allow_html=True)
     st.markdown(f'<p class="feature-text">{description}</p>', unsafe_allow_html=True)
 
-st.sidebar.info("Created by [Gabriel Reyes]")
+st.sidebar.info("Created by [Gabriel Reyes - gabriel.reyes@gsom.polimi.it]")
 st.sidebar.text("v1.3.0 - Multi-Asset Support")
