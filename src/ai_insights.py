@@ -1,11 +1,10 @@
 import openai
-from config import API_KEY
+import streamlit as st
 
-# Set your OpenAI API key
-openai.api_key = API_KEY
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def get_insights(prompt):
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a helpful financial analyst assistant."},
