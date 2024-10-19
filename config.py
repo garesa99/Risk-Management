@@ -1,0 +1,2 @@
+API_KEY = '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'
+DEFAULT_ASSETS = "AAPL,100,Stock\nMSFT,150,Stock\nGOOGL,75,Stock\nAMZN,50,Stock\nBTC-USD,2,Crypto"
