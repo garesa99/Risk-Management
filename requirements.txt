@@ -7,4 +7,4 @@ plotly
 scikit-learn
 scipy
 yfinance
-openai
+openai==0.28
