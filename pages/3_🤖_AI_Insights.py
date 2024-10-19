@@ -5,7 +5,7 @@ import openai
 from config import API_KEY
 
 # Set up OpenAI API
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["API_KEY"]
 
 st.set_page_config(layout="wide", page_title="AI Insights")
 
