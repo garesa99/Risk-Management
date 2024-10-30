@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Advanced Risk Management Dashboard", layout="wide")
 
-st.title("Welcome to the Advanced Risk Management Dashboard")
+st.title("Welcome to the Risk Management Dashboard")
 
 st.markdown("""
 <style>
