@@ -1,3 +1,6 @@
+################### Check master
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -12,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 import scipy.optimize as sco
 from openai import OpenAI
 import os
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='sk')
 
 
 
